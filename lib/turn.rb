@@ -7,9 +7,9 @@ def display_board(board)
 end
 
 def input_to_index (user_input)
-  input = user_input.to_i
-  input - 1
+  index = user_input.to_i
+  index - 1
 end
 
-def valid_move?
+def valid_move?(board, index)
 end
