@@ -31,3 +31,10 @@ end
 def move(board, index, value = "X")
   board[index]=value
 end
+
+until valid_move?(board, index) == true
+  turn(board)
+  user_input = gets.strip
+  index = input_to_index(user_input)
+  position_taken?(board, index)
+end
