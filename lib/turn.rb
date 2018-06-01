@@ -35,10 +35,3 @@ def turn(board)
   position_taken?(board, index)
   valid_move?(board, index)
 end
-
-until valid_move?(board, index) == true
-  turn(board)
-end
-
-move(board, index, value = "X")
-display_board(board)
