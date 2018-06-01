@@ -18,5 +18,5 @@ if valid_move?(board, index) == true
   display_board(board)
 end
 
-if valid_move?(board, index) = nil
+if valid_move?(board, index) == nil
   turn(board)
