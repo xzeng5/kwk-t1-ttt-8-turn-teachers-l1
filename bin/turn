@@ -6,9 +6,3 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
 turn(board)
-
-until valid_move?(board, index) == true
-  turn(board)
-end
-move(board, index, value = "X")
-display_board(board)
