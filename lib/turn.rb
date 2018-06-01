@@ -10,7 +10,7 @@ def turn(board)
   puts "Please enter 1-9:"
 end
 
-user_input = gets. 
+user_input = gets.chomp
 
 def input_to_index (user_input)
   index = user_input.to_i
