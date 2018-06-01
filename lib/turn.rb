@@ -8,12 +8,11 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  def input_to_index (user_input)
-    user_input.to_i - 1
-  end
 end
 
-
+def input_to_index (user_input)
+  user_input.to_i - 1
+end
 
 def position_taken?(board, index)
   if board[index] == " " || board[index] == "" || board[index] == nil
