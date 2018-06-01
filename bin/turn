@@ -24,4 +24,3 @@ move(board, index, value = "X")
 display_board(board)
 turn(board)
 user_input = gets.strip
-
